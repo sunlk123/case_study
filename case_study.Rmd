@@ -7,5 +7,18 @@ output: github_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
 ```
 
+## case study
+
+```{r}
+library(p8105.datasets)
+data("nyc_airbnb")
+```
+
+## Questions 
+* how are airbnb prices related to rent in the neighborhood?
+* which neighborhood is most expensive and which is cheapest? 
+* do hosts with multiple sites ahve higher prices or ratings?
+* does priace have any relation to ratings? 
